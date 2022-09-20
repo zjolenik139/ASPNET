@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Product\Index1.cshtml" />
+    <Content Remove="Views\Product\Index2.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.123" />
     <PackageReference Include="MySql.Data" Version="8.0.30" />
   </ItemGroup>
